@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+section {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+article {
+    padding: 2px 5px;
+    margin: 5px;
+}
+
+article img {
+    float: left;
+    width: 20%;
+    border: 1px solid #C1C2C0;
+    margin-right: 20px;
+}
+
+h3 {
+    color: #72aeb4;
+    position: relative;
+    left: 296px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+span {
+    color: #72aeb4;
+    text-decoration: underline;
+}
+
+.color {
+    color: inherit;
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+p {
+    width: 90%;
+}

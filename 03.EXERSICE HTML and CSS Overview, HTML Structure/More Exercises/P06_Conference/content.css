@@ -1,0 +1,30 @@
+img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+section {
+    margin: auto;
+    padding: 5px;
+    width: 78%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+article {
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+h3, h2, p, img {
+    text-align: left;
+}
+
+h2 {
+    color: #90b4d6;
+}

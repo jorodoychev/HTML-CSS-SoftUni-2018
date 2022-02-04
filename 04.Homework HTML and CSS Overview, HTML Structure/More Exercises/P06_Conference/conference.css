@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Lato", sans-serif;;
+    src: url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: #293F50;
+    height: 60%;
+}
+
+.topmenu li {
+    display: inline-block;
+    color: #5F837E;
+    text-align: center;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 60px;
+    margin: 50px;
+}
+
+h2 {
+    color: #5F837E;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+h3 {
+    color: #5F837E;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+header p {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.btn {
+    display: block;
+    margin: 40px auto 40px auto;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #5F837E;
+}
+
+button, img {
+    border-radius: 5px;
+}
+
+main {
+
+    margin: 10px;
+}
+
+section {
+    width: 1100px;
+    margin: 30px auto;
+}
+
+article {
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+}
+
+article h3 {
+    color: #c4c4c4;
+    text-align: left;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+article h2 {
+    color: #c4c4c4;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+article p {
+    color: #c4c4c4;
+}
+
+article img {
+    width: inherit;
+}
+
+footer {
+    background: #293F50;
+    color: #c4c4c4;
+    height: 100px;
+}
+
+footer p {
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.bottommenu ul {
+    margin: 20px;
+    float: right;
+}
+
+.bottommenu li {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    padding: 20px;
+    cursor: pointer;
+}

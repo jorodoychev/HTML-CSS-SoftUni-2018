@@ -1,0 +1,85 @@
+@import url(fonts/fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1000px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15px;
+    color: #191923;
+    background-color: #CACAC9;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #191923;
+    text-transform: uppercase;
+}
+nav li:first-of-type a {
+    color: #BF1363;
+    text-transform: capitalize;
+}
+nav a:hover {
+    color: #BF1363;
+}
+
+
+img
+{
+    width: 100%;
+    height: 150px;
+    border-bottom: 3px solid #CACAC9;
+}
+section{
+    background-color: #fff;
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin: 5px;
+
+}
+section h1{
+    font-size: 16px;
+    text-transform: uppercase;
+
+
+}
+
+section h1,p{
+    padding: 10px;
+    color: #191923;
+
+}
+
+main section{
+    vertical-align: top;
+}
+
+main > a:last-of-type {
+    margin-right: 0;
+}
+main > a:hover {
+    opacity: 0.8;
+}
+
+

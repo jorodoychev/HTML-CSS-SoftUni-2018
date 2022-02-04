@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #24437C;
+}
+
+.nav-primary {
+    float: right;
+    margin: 20px 50px 0 0;
+
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+nav ul li:last-of-type {
+    background-color: rgba(70, 210, 250, 0.8);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+ul li {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-title {
+    color: #fff;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 100px;
+}
+
+nav img {
+    padding: 20px;
+    width: 10%;
+}
+
+.header-subtitle {
+    color: #588BA4;
+    text-transform: capitalize;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgba(70, 210, 250, 0.8);
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#button-container {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.header-services {
+    margin: 40px 120px;
+    padding: 0;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    width: 25%;
+    padding: 45px 20px 30px;
+    text-align: left;
+    margin: 0 20px;
+}
+
+.service:hover {
+    background-color: rgba(70, 210, 250, 0.8);
+    cursor: pointer;
+}
+
+.service-title {
+    padding: 0 20px;
+    margin-bottom: 35px;
+}
+
+.service-intro {
+    font-size: 0.9em;
+}
+
+.service-link {
+    display: block;
+    color: #ffffff;
+    margin-top: 30px;
+    text-decoration: none;
+}
+article{
+    color: #ffffff;
+}
+

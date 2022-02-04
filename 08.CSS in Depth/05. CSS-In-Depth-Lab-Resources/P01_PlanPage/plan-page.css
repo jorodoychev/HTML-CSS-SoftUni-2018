@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/plan-page.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    width: 1180px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+}
+
+section article {
+    width: 28%;
+    display: inline-block;
+    background-color: #262626;
+    border: 5px solid #424242;
+    margin: 80px 20px 0 20px;
+    color: #a1a1a1;
+}
+
+article h1 {
+    font-size: 1.5em;
+    color: #FFF;
+    padding: 20px;
+}
+
+ul li {
+
+    line-height: 2em;
+    list-style-type: none;
+}
+
+.price {
+    color: #27DCC4;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 50px;
+}
+
+
+button {
+    border: none;
+    background-color: #27DCC4;
+    padding: 15px 30px;
+    margin: 10px 0;
+    color: #FFF;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ACACAC;
+
+}
